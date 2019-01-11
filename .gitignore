@@ -1,3 +1,4 @@
 /vs2017/Debug
 /vs2017/.vs
 /vs2017/sui/*.user
+/vs2017/thirdParty/*.user

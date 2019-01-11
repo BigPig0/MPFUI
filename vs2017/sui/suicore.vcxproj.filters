@@ -64,59 +64,8 @@
     <Filter Include="src">
       <UniqueIdentifier>{a909e13d-a553-4643-bd07-16215c934eec}</UniqueIdentifier>
     </Filter>
-    <Filter Include="..\..\src\suicore\Framework\Controls">
-      <UniqueIdentifier>{58989a0f-9cbe-4821-8e5c-d6a97de13947}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="..\..\src\suicore\Framework\Presenter">
-      <UniqueIdentifier>{f4cbdc35-775b-4697-bcde-3f08c476f822}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="..\..\src\suicore\Framework\Animation">
-      <UniqueIdentifier>{4876e549-c540-4ad9-9d1c-6bd488bf6abb}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="..\..\src\suicore\System\Windows">
-      <UniqueIdentifier>{a58ddc27-ce1a-4e07-bff8-a56f72de6b25}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="..\..\src\suicore\System\Input">
-      <UniqueIdentifier>{d104a1b5-b899-4141-8c1c-1a1d57e90ce3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="..\..\src\suicore\System\Interop">
-      <UniqueIdentifier>{fa593522-f61d-4521-a04b-6fd9f9ae8e59}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="..\..\src\suicore\System\Tools">
-      <UniqueIdentifier>{3d145f8f-113e-4fda-bd25-fffbb4fe4625}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="..\..\src\suicore\System\Resources">
-      <UniqueIdentifier>{360ea600-10c9-4c8f-aa29-fc3cb925ac25}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="..\..\src\suicore\System\Types">
-      <UniqueIdentifier>{9d31b0e5-a2ff-4ac9-8f78-6f3599e63644}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="..\..\src\suicore\System\Graphics">
-      <UniqueIdentifier>{e7d61caf-f41d-4b90-8914-1b2ccd3ff29b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="..\..\src\suicore\System\Render">
-      <UniqueIdentifier>{663ebb9d-07e9-4572-884c-256d959921e5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="..\..\src\suicore\System\Render\Engine">
-      <UniqueIdentifier>{7a12ec22-70dc-40af-9abf-2943d47dd0c1}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="..\..\src\suicore\System\Render\Skia">
-      <UniqueIdentifier>{62312f17-c0c6-4d26-82ea-674df63f6504}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="..\..\src\suicore\System\Animation">
-      <UniqueIdentifier>{427a9d40-9ac8-4e69-89a5-cb27c6df5e54}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="..\..\src\suicore\System\DragDrop">
-      <UniqueIdentifier>{46fa7c43-3293-4336-9bd8-6aba0a62efb5}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="suicore.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\src\suicore\System\Windows\AssignerTimer.cpp">
       <Filter>include\System\Windows</Filter>
     </ClCompile>
@@ -778,6 +727,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\src\suicore\System\DragDrop\DropTarget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\suicore\stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\suicore\suicore.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
