@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "skia", "thirdParty\skia.vcxproj", "{FD0B837B-0C5D-3A8F-9E96-5726231B7211}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "suicore", "sui\suicore.vcxproj", "{4C859412-240C-43BC-B84C-1ADF14DDD728}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -15,6 +17,10 @@ Global
 		{FD0B837B-0C5D-3A8F-9E96-5726231B7211}.Debug|x86.Build.0 = Debug|Win32
 		{FD0B837B-0C5D-3A8F-9E96-5726231B7211}.Release|x86.ActiveCfg = Release|Win32
 		{FD0B837B-0C5D-3A8F-9E96-5726231B7211}.Release|x86.Build.0 = Release|Win32
+		{4C859412-240C-43BC-B84C-1ADF14DDD728}.Debug|x86.ActiveCfg = Debug|Win32
+		{4C859412-240C-43BC-B84C-1ADF14DDD728}.Debug|x86.Build.0 = Debug|Win32
+		{4C859412-240C-43BC-B84C-1ADF14DDD728}.Release|x86.ActiveCfg = Release|Win32
+		{4C859412-240C-43BC-B84C-1ADF14DDD728}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
