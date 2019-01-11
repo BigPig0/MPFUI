@@ -10,7 +10,7 @@
 #include <System/Render/Skia/SkTextOp.h>
 #include <System/Render/Skia/SkiaDrawing.h>
 
-#include <Skia/effects/SkBlurMaskFilter.h>
+#include <effects/SkBlurMaskFilter.h>
 
 namespace suic
 {

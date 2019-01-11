@@ -1,7 +1,7 @@
 
 #include <Framework/Controls/Path.h>
 #include <System/Graphics/SolidcolorBrush.h>
-#include <Skia/core/SkPath.h>
+#include <core/SkPath.h>
 
 namespace suic
 {

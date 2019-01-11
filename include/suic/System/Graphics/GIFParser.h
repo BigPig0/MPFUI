@@ -6,7 +6,7 @@
 
 namespace suic
 {
-
+/*
 class SUICORE_API GIFParser : public ImageParse
 {
 public:
@@ -34,7 +34,7 @@ inline bool GIFParser::IsLoaded() const
 {
     return _isLoaded;
 }
+*/
 
 }
-
 #endif

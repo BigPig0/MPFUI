@@ -6,8 +6,8 @@
 
 #include <System/Interop/System.h>
 
-#include <Skia/core/SkRRect.h>
-#include <Skia/core/SkRegion.h>
+#include <core/SkRRect.h>
+#include <core/SkRegion.h>
 
 #define RECT_TO_SKRECT(rect) SkRect::MakeLTRB(rect.left, rect.top, rect.right, rect.bottom)
 #define RECT_TO_SKIRECT(rect) SkIRect::MakeLTRB(rect.left, rect.top, rect.right, rect.bottom)

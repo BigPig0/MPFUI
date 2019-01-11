@@ -20,12 +20,12 @@
 
 #include <System/Interop/System.h>
 
-#include <Skia/core/SkBitmap.h>
-#include <Skia/core/SkPaint.h>
-#include <Skia/core/SkCanvas.h>
+#include <core/SkBitmap.h>
+#include <core/SkPaint.h>
+#include <core/SkCanvas.h>
 
-#include <Skia/utils/SkCamera.h>
-#include <Skia/core/SkImageFilter.h>
+#include <utils/SkCamera.h>
+#include <core/SkImageFilter.h>
 
 #include <System/Graphics/RadialGradientBrush.h>
 #include <System/Graphics/LinearGradientBrush.h>

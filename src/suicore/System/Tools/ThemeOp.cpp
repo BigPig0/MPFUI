@@ -11,7 +11,7 @@
 #include <System/Interop/InternalOper.h>
 #include <System/Interop/InternalWindowOper.h>
 
-#include <Skia/core/SkImageDecoder.h>
+#include <core/SkImageDecoder.h>
 
 namespace suic
 {

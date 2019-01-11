@@ -23,10 +23,10 @@
 #include <System/Interop/PlugManager.h>
 #include <System/Interop/ColorManager.h>
 
-#include <Skia/core/SkTypeface.h>
-#include <Skia/core/SkPath.h>
-#include <Skia/core/SkMatrix.h>
-#include <Skia/core/SkBitmap.h>
+#include <core/SkTypeface.h>
+#include <core/SkPath.h>
+#include <core/SkMatrix.h>
+#include <core/SkBitmap.h>
 
 namespace suic
 {

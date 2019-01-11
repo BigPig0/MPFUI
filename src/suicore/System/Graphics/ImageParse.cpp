@@ -1,5 +1,5 @@
 
-#include <Skia/images/SkGifReader.h>
+//#include <images/SkGifReader.h>
 
 #include <System/Tools/ThemeOp.h>
 #include <System/Graphics/GIFParser.h>
@@ -8,7 +8,7 @@
 
 namespace suic
 {
-
+/*
 class GifParseImpl : public ImageParse
 {
 public:
@@ -59,7 +59,7 @@ public:
 
 private:
 
-    SkGifReader _gifReader;
+   // SkGifReader _gifReader;
 };
 
 GIFParser::GIFParser()
@@ -114,5 +114,5 @@ bool GIFParser::GetImage(Bitmap& bmp)
 {
     return _parser->GetImage(bmp);
 }
-
+*/
 }

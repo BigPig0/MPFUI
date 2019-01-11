@@ -9,10 +9,10 @@
 #include <System/Interop/System.h>
 
 #include <System/Render/Skia/SkTextOp.h>
-#include <Skia/effects/SkDashPathEffect.h>
-#include <Skia/effects/SkGradientShader.h>
-#include <Skia/core/SkTypeface.h>
-#include <Skia/core/SkColorShader.h>
+#include <effects/SkDashPathEffect.h>
+#include <effects/SkGradientShader.h>
+#include <core/SkTypeface.h>
+#include <core/SkColorShader.h>
 
 namespace suic
 {

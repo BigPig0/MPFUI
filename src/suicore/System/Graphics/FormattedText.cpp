@@ -1,8 +1,8 @@
 
 #include <System/Graphics/FormattedText.h>
 #include <System/Render/Skia/SkTextOp.h>
-#include <Skia/effects/SkGradientShader.h>
-#include <Skia/core/SkTypeface.h>
+#include <effects/SkGradientShader.h>
+#include <core/SkTypeface.h>
 #include <System/Tools/CoreHelper.h>
 #include <System/Graphics/SolidColorBrush.h>
 

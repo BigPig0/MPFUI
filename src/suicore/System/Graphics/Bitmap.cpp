@@ -4,8 +4,8 @@
 #include <System/Graphics/Bitmap.h>
 #include <System/Windows/CoreTool.h>
 
-#include <Skia/core/SkCanvas.h>
-#include <Skia/core/SkImageDecoder.h>
+#include <core/SkCanvas.h>
+#include <core/SkImageDecoder.h>
 
 /*--------内部使用头文件--------*/
 #include <System/Tools/SSE.h>
@@ -16,7 +16,7 @@
 
 #include <stdio.h>
 
-#include <Skia/core/SkImageDecoder.h>
+#include <core/SkImageDecoder.h>
 
 namespace suic
 {
@@ -302,24 +302,24 @@ static void __SetConfig(SkBitmap* bmp, Int32 wid, Int32 hei, int bits)
     }
 #else
 
-    switch (bits)
-    {
-    case 32:
-        bmp->setConfig(SkBitmap::kARGB_8888_Config, wid, hei); 
-        break;
-    case 16:
-        bmp->setConfig(SkBitmap::kRGB_565_Config, wid, hei); 
-        break;
-    case 8:
-        bmp->setConfig(SkBitmap::kA8_Config, wid, hei); 
-        break;
-    case 1:
-        bmp->setConfig(SkBitmap::kNo_Config, wid, hei);
-        break;
-    default:
-        bmp->setConfig(SkBitmap::kARGB_8888_Config, wid, hei);
-        break;
-    }
+    //switch (bits)
+    //{
+    //case 32:
+    //    bmp->setConfig(SkBitmap::kARGB_8888_Config, wid, hei); 
+    //    break;
+    //case 16:
+    //    bmp->setConfig(SkBitmap::kRGB_565_Config, wid, hei); 
+    //    break;
+    //case 8:
+    //    bmp->setConfig(SkBitmap::kA8_Config, wid, hei); 
+    //    break;
+    //case 1:
+    //    bmp->setConfig(SkBitmap::kNo_Config, wid, hei);
+    //    break;
+    //default:
+    //    bmp->setConfig(SkBitmap::kARGB_8888_Config, wid, hei);
+    //    break;
+    //}
 
 #endif
     /*switch (bits)

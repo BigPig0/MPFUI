@@ -11,8 +11,8 @@
 #ifndef _UISKTEXTOP_H_
 #define _UISKTEXTOP_H_
 
-#include <Skia/core/SkCanvas.h>
-#include <Skia/core/SkBitmap.h>
+#include <core/SkCanvas.h>
+#include <core/SkBitmap.h>
 
 #define CalcLineSpace(fm) (fm.fBottom - fm.fTop + fm.fLeading + 0.4)
 

@@ -79,7 +79,7 @@
 
 #include <Framework/Animation/AnimationAsSeries.h>
 
-#include <Skia/core/SkImageDecoder.h>
+#include <core/SkImageDecoder.h>
 
 HMODULE s_g_handle = NULL;
 

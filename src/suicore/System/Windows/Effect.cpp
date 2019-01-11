@@ -3,9 +3,9 @@
 #include <System/Windows/SystemEffect.h>
 #include <System/Types/Interface.h>
 
-#include <Skia/core/SkPaint.h>
-#include <Skia/effects/SkBlurImageFilter.h>
-#include <Skia/effects/SkDropShadowImageFilter.h>
+#include <core/SkPaint.h>
+#include <effects/SkBlurImageFilter.h>
+#include <effects/SkDropShadowImageFilter.h>
 
 namespace suic 
 {

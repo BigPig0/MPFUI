@@ -24,8 +24,8 @@
 
 #include <System/Windows/Environment.h>
 
-#include <Skia/effects/SkGradientShader.h>
-#include <Skia/effects/SkPaintFlagsDrawFilter.h>
+#include <effects/SkGradientShader.h>
+#include <effects/SkPaintFlagsDrawFilter.h>
 #include <System/Render/Skia/BookPage.h>
 
 int g_child_dount = 0;

@@ -13,7 +13,7 @@
 #include <Framework/Controls/TickBar.h>
 #include <Framework/Controls/Slider.h>
 #include <System/Tools/Debug.h>
-#include <Skia/effects/SkDashPathEffect.h>
+#include <effects/SkDashPathEffect.h>
 
 namespace suic
 {

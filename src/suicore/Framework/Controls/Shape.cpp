@@ -12,7 +12,7 @@
 
 #include <Framework/Controls/Shape.h>
 #include <System/Tools/Debug.h>
-#include <Skia/effects/SkDashPathEffect.h>
+#include <effects/SkDashPathEffect.h>
 
 namespace suic
 {

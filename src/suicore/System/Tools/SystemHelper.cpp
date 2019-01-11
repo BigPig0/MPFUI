@@ -11,7 +11,7 @@
 
 #include <Framework/Controls/Application.h>
 
-#include <Skia/core/SkImageDecoder.h>
+#include <core/SkImageDecoder.h>
 
 namespace suic
 {

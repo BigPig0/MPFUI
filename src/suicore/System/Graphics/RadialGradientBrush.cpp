@@ -6,7 +6,7 @@
 #include <System/Tools/Array.h>
 #include <System/Types/Interface.h>
 #include <System/Render/Skia/SkiaDrawing.h>
-#include <Skia/effects/SkGradientShader.h>
+#include <effects/SkGradientShader.h>
 
 namespace suic
 {

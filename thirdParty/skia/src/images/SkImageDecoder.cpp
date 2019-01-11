@@ -285,3 +285,13 @@ bool SkImageDecoder::DecodeStream(SkStreamRewindable* stream, SkBitmap* bm, SkCo
     }
     return success;
 }
+
+SkImageDecoder::Format SkImageDecoder::GetStreamFormat(SkStreamRewindable*)
+{
+	return SkImageDecoder::Format::kUnknown_Format;
+}
+
+SkImageDecoder* SkImageDecoder::Factory(SkStreamRewindable *stream)
+{
+	return NULL;
+}

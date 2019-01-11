@@ -7,7 +7,7 @@
 
 namespace suic
 {
-
+/*
 class SUICORE_API ImageParse : public suic::Object
 {
 public:
@@ -25,7 +25,7 @@ public:
     virtual int GetDelay() = 0;
     virtual bool GetImage(Bitmap& bmp) = 0;
 };
-
+*/
 }
 
 #endif

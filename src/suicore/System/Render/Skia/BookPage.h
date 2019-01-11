@@ -2,16 +2,16 @@
 #include <System/Types/Types.h>
 #include <System/Windows/Object.h>
 
-#include <Skia/core/SkPreConfig.h>
-#include <Skia/core/SkCanvas.h>
-#include <Skia/core/SkRect.h>
-#include <Skia/core/SkStream.h>
-#include <Skia/core/SkPoint.h>
-#include <Skia/effects/SkGradientShader.h>
-#include <Skia/core/SkPath.h>
-#include <Skia/effects/SkColorMatrix.h>
-#include <Skia/effects/SkColorMatrixFilter.h>
-#include <Skia/utils/skcamera.h>
+#include <core/SkPreConfig.h>
+#include <core/SkCanvas.h>
+#include <core/SkRect.h>
+#include <core/SkStream.h>
+#include <core/SkPoint.h>
+#include <effects/SkGradientShader.h>
+#include <core/SkPath.h>
+#include <effects/SkColorMatrix.h>
+#include <effects/SkColorMatrixFilter.h>
+#include <utils/skcamera.h>
 
 #define PI (3.141592653)
 
