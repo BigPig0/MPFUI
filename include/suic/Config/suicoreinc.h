@@ -37,49 +37,11 @@
 #pragma comment(lib, "msimg32.lib")
 
 #ifndef SUICORE_LIB
-
-#ifndef _WIN64
-
-#ifdef _DEBUG
-#pragma comment(lib, "suicoreud.lib")
+#pragma comment(lib, "suicore.lib")
 #else
-#pragma comment(lib, "suicoreu.lib")
-#endif
-
-#else
-
-#ifdef _DEBUG
-#pragma comment(lib, "suicore64ud.lib")
-#else
-#pragma comment(lib, "suicore64u.lib")
-#endif
-
-#endif
-
-#else
-
 #pragma comment(lib, "usp10.lib")
 #pragma comment(lib, "opengl32.lib")
 #pragma comment(lib, "windowscodecs.lib")
-
-#ifdef _DEBUG
-#if _MSC_VER >= 1900
-#pragma comment(lib, "drawlibs14d.lib")
-#else
-#pragma comment(lib, "drawlibsd.lib")
-#endif
-#pragma comment(lib, "freetype253_d.lib")
-#pragma comment(lib, "suicoresud.lib")
-#else
-#if _MSC_VER >= 1900
-#pragma comment(lib, "drawlib14s.lib")
-#else
-#pragma comment(lib, "drawlibs.lib")
-#endif
-#pragma comment(lib, "freetype253.lib")
-#pragma comment(lib, "suicoresu.lib")
-#endif
-
 #endif
 
 #ifndef SUICORE_LIB

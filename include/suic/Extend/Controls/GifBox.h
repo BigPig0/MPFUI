@@ -57,13 +57,14 @@ protected:
 private:
 
     suic::Bitmap _bitmap;
-    suic::GIFParser* _parser;
+    //suic::GIFParser* _parser;
     suic::AssignerTimer* _timer;
 };
 
 inline bool GifBox::IsValid() const
 {
-    if (NULL == _parser || !_parser->IsLoaded())
+    //if (NULL == _parser || !_parser->IsLoaded())
+	if(1)
     {
         return false;
     }

@@ -18,7 +18,7 @@ suic::DpProperty* GifBox::UriProperty;
 suic::DpProperty* GifBox::PlayProperty;
 
 GifBox::GifBox()
-    : _parser(NULL)
+    //: _parser(NULL)
 {
     GifBox::StaticInit();
     _timer = new suic::AssignerTimer();
@@ -27,10 +27,10 @@ GifBox::GifBox()
 
 GifBox::~GifBox()
 {
-    if (NULL != _parser)
-    {
-        _parser->unref();
-    }
+    //if (NULL != _parser)
+    //{
+    //    _parser->unref();
+    //}
 
     if (NULL != _timer)
     {
@@ -42,14 +42,14 @@ void GifBox::OnUriPropChanged(suic::DpObject* d, suic::DpPropChangedEventArg* e)
 {
     GifBox* gifBox = suic::RTTICast<GifBox>(d);
     suic::ResourceUri resUri(e->GetNewValue()->ToString());
-    if (NULL != gifBox->_parser)
-    {
-        gifBox->_parser->unref();
-    }
-    gifBox->_parser = new suic::GIFParser();
-    gifBox->_parser->ref();
-    gifBox->_parser->LoadUri(&resUri);
-    gifBox->_parser->MoveNext();
+    //if (NULL != gifBox->_parser)
+    //{
+    //    gifBox->_parser->unref();
+    //}
+    //gifBox->_parser = new suic::GIFParser();
+    //gifBox->_parser->ref();
+    //gifBox->_parser->LoadUri(&resUri);
+    //gifBox->_parser->MoveNext();
 }
 
 void GifBox::OnPlayPropChanged(suic::DpObject* d, suic::DpPropChangedEventArg* e)
@@ -90,13 +90,13 @@ bool GifBox::IsPlay()
 suic::Size GifBox::OnMeasure(const suic::Size& constraint)
 {
     suic::Size measureSize;
-    if (NULL != _parser)
-    {
-        suic::ImageParse::Info info;
-        _parser->GetInfo(info);
-        measureSize.cx = info.wid;
-        measureSize.cy = info.hei;
-    }
+    //if (NULL != _parser)
+    //{
+    //    suic::ImageParse::Info info;
+    //    _parser->GetInfo(info);
+    //    measureSize.cx = info.wid;
+    //    measureSize.cy = info.hei;
+    //}
     return measureSize;
 }
 
@@ -141,24 +141,24 @@ void GifBox::OnRender(suic::Drawing * drawing)
 
 void GifBox::OnTick(suic::Object* sender, suic::EventArg* e)
 {
-    if (NULL != _parser)
-    {
-        int iDelay = 100;
-        _parser->MoveNext();
-        iDelay = _parser->GetDelay();
-        _parser->GetImage(_bitmap);
+    //if (NULL != _parser)
+    //{
+    //    int iDelay = 100;
+    //    _parser->MoveNext();
+    //    iDelay = _parser->GetDelay();
+    //    _parser->GetImage(_bitmap);
 
-        if (iDelay <= 0)
-        {
-            iDelay = 100;
-        }
-        
-        _timer->Stop();
-        _timer->SetInterval(iDelay);
-        _timer->Start();
+    //    if (iDelay <= 0)
+    //    {
+    //        iDelay = 100;
+    //    }
+    //    
+    //    _timer->Stop();
+    //    _timer->SetInterval(iDelay);
+    //    _timer->Start();
 
-        InvalidateVisual();
-    }
+    //    InvalidateVisual();
+    //}
 }
 
 void GifBox::OnInitialized(suic::EventArg* e)
