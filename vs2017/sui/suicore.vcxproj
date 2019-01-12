@@ -47,7 +47,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\thirdparty\skia\include;$(SolutionDir)..\thirdparty\skia\include\core;$(SolutionDir)..\thirdparty\skia\include\ports;$(SolutionDir)..\thirdparty\skia\include\utils;$(SolutionDir)..\thirdparty\skia\include\pathops;$(SolutionDir)..\thirdparty\skia\include\images;$(SolutionDir)..\thirdparty\skia\include\effects;$(SolutionDir)..\thirdparty\skia\include\config;$(SolutionDir)../include/suic;$(SolutionDir)../src/suicore;$(SolutionDir)../src/suicore/System/Render/Skia/src/core;$(SolutionDir)../src/suicore/System/Render/Skia/src/ports;$(SolutionDir)../src/suicore/System/Render/Skia/src/image;$(SolutionDir)../src/suicore/System/Render/Skia/src/images;$(SolutionDir)../src/suicore/System/Render/Skia/src/utils;$(SolutionDir)../src/suicore/System/Render/Skia/src/opts;$(SolutionDir)../src/suicore/System/Render/Skia/src/sfnt;$(SolutionDir)../src/suicore/System/Render/Skia/src/pathops;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\third_party\skia\include;$(SolutionDir)..\third_party\skia\include\core;$(SolutionDir)..\third_party\skia\include\ports;$(SolutionDir)..\third_party\skia\include\utils;$(SolutionDir)..\third_party\skia\include\pathops;$(SolutionDir)..\third_party\skia\include\images;$(SolutionDir)..\third_party\skia\include\effects;$(SolutionDir)..\third_party\skia\include\config;$(SolutionDir)../include/suic;$(SolutionDir)../src/suicore;$(SolutionDir)../src/suicore/System/Render/Skia/src/core;$(SolutionDir)../src/suicore/System/Render/Skia/src/ports;$(SolutionDir)../src/suicore/System/Render/Skia/src/image;$(SolutionDir)../src/suicore/System/Render/Skia/src/images;$(SolutionDir)../src/suicore/System/Render/Skia/src/utils;$(SolutionDir)../src/suicore/System/Render/Skia/src/opts;$(SolutionDir)../src/suicore/System/Render/Skia/src/sfnt;$(SolutionDir)../src/suicore/System/Render/Skia/src/pathops;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;SUICORE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PrecompiledHeader>
       </PrecompiledHeader>
@@ -55,20 +55,20 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies>opengl32.Lib;usp10.lib;skia.lib;windowscodecs.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(OutDir);$(SolutionDir)..\thirdParty\freetype\$(Platform)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(OutDir);$(SolutionDir)..\third_party\freetype\$(Platform)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>msvcrtd.lib;libcmt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\thirdparty\skia\include;$(SolutionDir)..\thirdparty\skia\include\core;$(SolutionDir)..\thirdparty\skia\include\ports;$(SolutionDir)..\thirdparty\skia\include\utils;$(SolutionDir)..\thirdparty\skia\include\pathops;$(SolutionDir)..\thirdparty\skia\include\images;$(SolutionDir)..\thirdparty\skia\include\effects;$(SolutionDir)..\thirdparty\skia\include\config;$(SolutionDir)../include/suic;$(SolutionDir)../src/suicore;$(SolutionDir)../src/suicore/System/Render/Skia/src/core;$(SolutionDir)../src/suicore/System/Render/Skia/src/ports;$(SolutionDir)../src/suicore/System/Render/Skia/src/image;$(SolutionDir)../src/suicore/System/Render/Skia/src/images;$(SolutionDir)../src/suicore/System/Render/Skia/src/utils;$(SolutionDir)../src/suicore/System/Render/Skia/src/opts;$(SolutionDir)../src/suicore/System/Render/Skia/src/sfnt;$(SolutionDir)../src/suicore/System/Render/Skia/src/pathops;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\third_party\skia\include;$(SolutionDir)..\third_party\skia\include\core;$(SolutionDir)..\third_party\skia\include\ports;$(SolutionDir)..\third_party\skia\include\utils;$(SolutionDir)..\third_party\skia\include\pathops;$(SolutionDir)..\third_party\skia\include\images;$(SolutionDir)..\third_party\skia\include\effects;$(SolutionDir)..\third_party\skia\include\config;$(SolutionDir)../include/suic;$(SolutionDir)../src/suicore;$(SolutionDir)../src/suicore/System/Render/Skia/src/core;$(SolutionDir)../src/suicore/System/Render/Skia/src/ports;$(SolutionDir)../src/suicore/System/Render/Skia/src/image;$(SolutionDir)../src/suicore/System/Render/Skia/src/images;$(SolutionDir)../src/suicore/System/Render/Skia/src/utils;$(SolutionDir)../src/suicore/System/Render/Skia/src/opts;$(SolutionDir)../src/suicore/System/Render/Skia/src/sfnt;$(SolutionDir)../src/suicore/System/Render/Skia/src/pathops;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;SUICORE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PrecompiledHeader>
       </PrecompiledHeader>
     </ClCompile>
     <Link>
       <AdditionalDependencies>opengl32.Lib;usp10.lib;skia.lib;windowscodecs.lib;freetype.lib;ResEncrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(OutDir);$(SolutionDir)..\thirdParty\freetype\$(Platform)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(OutDir);$(SolutionDir)..\third_party\freetype\$(Platform)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>msvcrt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <AssemblyDebug>
       </AssemblyDebug>

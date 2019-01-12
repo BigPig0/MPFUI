@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "skia", "thirdParty\skia.vcxproj", "{FD0B837B-0C5D-3A8F-9E96-5726231B7211}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "skia", "third_party\skia.vcxproj", "{FD0B837B-0C5D-3A8F-9E96-5726231B7211}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "suicore", "sui\suicore.vcxproj", "{4C859412-240C-43BC-B84C-1ADF14DDD728}"
 EndProject
