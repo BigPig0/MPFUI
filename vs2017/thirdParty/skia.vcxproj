@@ -13,7 +13,6 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{FD0B837B-0C5D-3A8F-9E96-5726231B7211}</ProjectGuid>
     <Keyword>Qt4VSv1.0</Keyword>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -53,17 +52,10 @@
     <ClCompile>
       <AdditionalIncludeDirectories>.;$(SolutionDir)..\thirdparty\skia\include\config;$(SolutionDir)..\thirdparty\skia\include\core;$(SolutionDir)..\thirdparty\skia\src\core;$(SolutionDir)..\thirdparty\skia\include\gpu;$(SolutionDir)..\thirdparty\skia\src\gpu;$(SolutionDir)..\thirdparty\skia\include\images;$(SolutionDir)..\thirdparty\skia\include\utils;$(SolutionDir)..\thirdparty\skia\include\utils\win;$(SolutionDir)..\thirdparty\skia\src\utils;$(SolutionDir)..\thirdparty\skia\include\ports;$(SolutionDir)..\thirdparty\skia\include/text;$(SolutionDir)..\thirdparty\skia\include\effects;$(SolutionDir)..\thirdparty\skia\src\sfnt;$(SolutionDir)..\thirdparty\skia\include\pathops;$(SolutionDir)..\thirdparty\skia\src\image;$(SolutionDir)..\thirdparty\skia\src\opts;$(SolutionDir)..\thirdparty\skia\src\lazy;..\..\config;..\..\tools\mkspecs\win32-msvc2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/MP -w34100 -w34189 -w44996 %(AdditionalOptions)</AdditionalOptions>
-      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <DisableSpecificWarnings>4100;4101;4102;4189;4996;4244;4800;4100;%(DisableSpecificWarnings)</DisableSpecificWarnings>
-      <ExceptionHandling>Sync</ExceptionHandling>
       <PreprocessToFile>false</PreprocessToFile>
       <PreprocessSuppressLineNumbers>false</PreprocessSuppressLineNumbers>
-      <Optimization>MinSpace</Optimization>
       <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;_CRT_SECURE_NO_WARNINGS;SK_IGNORE_ETC1_SUPPORT;QT_NO_DYNAMIC_CAST;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <SuppressStartupBanner>true</SuppressStartupBanner>
-      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
-      <WarningLevel>Level3</WarningLevel>
     </ClCompile>
     <Lib>
       <SuppressStartupBanner>true</SuppressStartupBanner>
@@ -82,17 +74,11 @@
     <ClCompile>
       <AdditionalIncludeDirectories>.;$(SolutionDir)..\thirdparty\skia\include\config;$(SolutionDir)..\thirdparty\skia\include\core;$(SolutionDir)..\thirdparty\skia\src\core;$(SolutionDir)..\thirdparty\skia\include\gpu;$(SolutionDir)..\thirdparty\skia\src\gpu;$(SolutionDir)..\thirdparty\skia\include\images;$(SolutionDir)..\thirdparty\skia\include\utils;$(SolutionDir)..\thirdparty\skia\include\utils\win;$(SolutionDir)..\thirdparty\skia\src\utils;$(SolutionDir)..\thirdparty\skia\include\ports;$(SolutionDir)..\thirdparty\skia\include/text;$(SolutionDir)..\thirdparty\skia\include\effects;$(SolutionDir)..\thirdparty\skia\src\sfnt;$(SolutionDir)..\thirdparty\skia\include\pathops;$(SolutionDir)..\thirdparty\skia\src\image;$(SolutionDir)..\thirdparty\skia\src\opts;$(SolutionDir)..\thirdparty\skia\src\lazy;..\..\config;..\..\tools\mkspecs\win32-msvc2008;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/MP -w34100 -w34189 -w44996 %(AdditionalOptions)</AdditionalOptions>
-      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <DisableSpecificWarnings>4100;4101;4102;4189;4996;4244;4800;4100;%(DisableSpecificWarnings)</DisableSpecificWarnings>
-      <ExceptionHandling>Sync</ExceptionHandling>
       <PreprocessToFile>false</PreprocessToFile>
       <PreprocessSuppressLineNumbers>false</PreprocessSuppressLineNumbers>
-      <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;_CRT_SECURE_NO_WARNINGS;SK_IGNORE_ETC1_SUPPORT;QT_NO_DYNAMIC_CAST;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <SuppressStartupBanner>true</SuppressStartupBanner>
-      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
-      <WarningLevel>Level3</WarningLevel>
     </ClCompile>
     <Lib>
       <SuppressStartupBanner>true</SuppressStartupBanner>

@@ -63,8 +63,9 @@ public:
 
     bool Decrypt(const String& pwd, EncryItem& encryItem)
     {
-        int iSize = UIDecrypt::Decrypt(pwd, encryItem.input, encryItem.inputSize, &(encryItem.output));
-        return (iSize > 0 && iSize == encryItem.output.GetSize());
+		return 0;
+        //int iSize = UIDecrypt::Decrypt(pwd, encryItem.input, encryItem.inputSize, &(encryItem.output));
+        //return (iSize > 0 && iSize == encryItem.output.GetSize());
     }
 };
 
@@ -80,10 +81,10 @@ bool MemThemeInfo::ReadResData(const String& pwd)
         int iDataSize = 0;
         IResDecryption* resEncry = _decrypt;
         
-        if (NULL == resEncry)
-        {
-            resEncry = CoreSystem::Ins()->GetResDecryption();
-        }
+        //if (NULL == resEncry)
+        //{
+        //    resEncry = CoreSystem::Ins()->GetResDecryption();
+        //}
 
         encryItem.input = (Byte*)_data.GetBuffer();
         encryItem.inputSize = iSize;
