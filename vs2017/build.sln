@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "suicore", "sui\suicore.vcxp
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "suiwgx", "sui\suiwgx.vcxproj", "{6B245211-8E06-478D-8D97-B641CAB6FEC5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Button", "control_demos\Button.vcxproj", "{88D72114-6A4A-4066-8A9F-FEF6E5FDA33A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -27,6 +29,10 @@ Global
 		{6B245211-8E06-478D-8D97-B641CAB6FEC5}.Debug|x86.Build.0 = Debug|Win32
 		{6B245211-8E06-478D-8D97-B641CAB6FEC5}.Release|x86.ActiveCfg = Release|Win32
 		{6B245211-8E06-478D-8D97-B641CAB6FEC5}.Release|x86.Build.0 = Release|Win32
+		{88D72114-6A4A-4066-8A9F-FEF6E5FDA33A}.Debug|x86.ActiveCfg = Debug|Win32
+		{88D72114-6A4A-4066-8A9F-FEF6E5FDA33A}.Debug|x86.Build.0 = Debug|Win32
+		{88D72114-6A4A-4066-8A9F-FEF6E5FDA33A}.Release|x86.ActiveCfg = Release|Win32
+		{88D72114-6A4A-4066-8A9F-FEF6E5FDA33A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

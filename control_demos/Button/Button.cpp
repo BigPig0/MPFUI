@@ -2,7 +2,7 @@
 //
 
 #include "stdafx.h"
-#include "src/MainWindow.h"
+#include "MainWindow.h"
 
 int APIENTRY _tWinMain(HINSTANCE hInstance,
                        HINSTANCE hPrevInstance,

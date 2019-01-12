@@ -37,23 +37,8 @@
 
 #endif
 
-#ifndef SUIWGX_LIB
+#pragma comment(lib, "suiwgx.lib")
 
-#ifdef _DEBUG
-#pragma comment(lib, "suiwgxud.lib")
-#else
-#pragma comment(lib, "suiwgxu.lib")
-#endif
-
-#else
-
-#ifdef _DEBUG
-#pragma comment(lib, "suiwgxsud.lib")
-#else
-#pragma comment(lib, "suiwgxsu.lib")
-#endif
-
-#endif
 
 #include <windows.h>
 #include <commctrl.h>
